@@ -136,7 +136,14 @@ label[for="attendance"], label[for="bus"], label[for="bus-location"] {
     resize: vertical; /* Permite redimensionar el cuadro si lo deseas */
 }
 
-
-
-
-
+button {
+    background-color: #F5F5DC; /* Azul */
+    color: #000000;           /* Blanco */
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px auto;        /* Centrarlo */
+    display: block;           /* Para asegurarte de que no esté en línea */
+    cursor: pointer;
+}
