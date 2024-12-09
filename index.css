@@ -1,0 +1,142 @@
+/* Incluir la fuente Santa Catalina usando @font-face con el archivo .otf */
+@font-face {
+    font-family: 'Santa Catalina';
+    src: url('fonts/Santa Catalina1.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fondo beige */
+    font-family: 'Santa Catalina', sans-serif;
+    overflow-x: hidden; /* Evita cualquier desbordamiento horizontal */
+}
+
+
+/* Contenedor principal para centrar los elementos */
+.content {
+    text-align: center;
+    background-color: #F5F5DC;
+    margin: 0;
+    min-height: 100%;
+}
+
+.content2 {
+    background-color: #606958; 
+    text-align: center;
+    padding: 20px 0; /* Añade espacio interno */
+    margin: 0; /* Elimina cualquier margen superior */
+}
+
+/* Estilo para la fecha de la boda */
+.fecha {
+    font-size: 1.5rem;
+    color: #8fbc8f; /* Color verde claro para todo el texto */
+}
+
+.nombres{
+    font-size: 2.2rem;
+    color: #8fbc8f; /* Color verde claro para todo el texto */
+}
+.ceremonia, .celebracion, .regalos{
+    font-size: 2.2rem;
+    color: #8fbc8f; /* Color verde claro para todo el texto */
+}
+
+.puntos {
+    font-size: 1.2rem;
+    color: #8fbc8f; /* Color verde claro para todo el texto */
+    margin-top: 1px;
+}
+
+/* Estilo para la cuenta atrás */
+.cuentaAtras {
+    font-size: 1.5rem;
+    color: #8fbc8f;
+    margin-top: 20px;
+}
+
+.foto {
+    width: 300px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.foto2 {
+    width: 300px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.foto3 {
+    width: 200px;
+    height: auto;
+    margin-top: -10px; /* Ajusta el espacio entre la imagen y el texto superior */
+}
+
+.foto4 {
+    width: 350px;
+    height: auto;
+    margin-top: -10px; /* Ajusta el espacio entre la imagen y el texto superior */
+}
+
+.foto5 {
+    width: 400px;
+    height: auto;
+    margin-top: -40px; /* Ajusta el espacio entre la imagen y el texto superior */
+}
+
+.foto6 {
+    width: 300px;
+    height: auto;
+    margin-top: -10px; /* Ajusta el espacio entre la imagen y el texto superior */
+}
+
+.lugar {
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.calle {
+    font-size: 0.8rem;
+    color: #000000;
+    text-align: center;
+}
+
+label[for="attendance"], label[for="bus"], label[for="bus-location"] {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #F5F5DC; /* Color de la fuente F5F5DC para las preguntas */
+}
+
+#attendance, #guests, #name, #intolerancia, #bus, #bus-location {
+    border-radius: 10px;
+    background-color: #F5F5DC; /* Fondo del color especificado */
+    padding: 10px;
+    font-size: 16px;
+    width: 100%; /* Ajuste para que todos los elementos tengan el mismo ancho */
+    max-width: 250px; /* Tamaño máximo de las cajas */
+    box-sizing: border-box; /* Para incluir el padding dentro del tamaño total */
+}
+
+#attendance, #bus {
+    margin-bottom: 10px; /* Espacio entre los dos campos de selección */
+}
+
+#name-field, #bus-field {
+    margin-top: 10px; /* Espacio entre los elementos de nombre y el de lugar */
+}
+
+#name, #intolerancia, #bus-location {
+    margin-top: 10px; /* Espacio entre el segundo select y el input */
+}
+
+#intolerancia {
+    height: 160px; /* Altura mayor para el campo de intolerancia */
+    resize: vertical; /* Permite redimensionar el cuadro si lo deseas */
+}
+
+
+
+
+

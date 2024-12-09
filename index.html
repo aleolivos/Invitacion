@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondo Beige</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="countdown.js"></script> 
+    <script src="change.js"></script>
+</head>
+<body>
+    <div class="content">
+        <img src="images/novios.jpg" alt="Foto de los novios" class="foto">
+        <p class="nombres">Belén y Alejandro</p>
+        <p class="fecha">3 Mayo 2025</p>
+        <p class="puntos">• • •</p>
+        <p class="cuentaAtras"></p>
+        <img src="images/horas.png" alt="Foto horas" class="foto2">
+        <p class="ceremonia">La Ceremonia</p>
+        <img src="images/dolores.png" alt="Foto iglesia" class="foto3">
+        <p class="lugar">Parroquia Nuestra Señora de los Dolores</p>
+        <p class="calle">Calle Ntra. Sra. de los Dolores, 72, 41006 Sevilla</p>
+        <p><a href="https://maps.app.goo.gl/dUh3VoUp5pq5mLbn9" target="_blank">Ver en Google Maps</a></p>
+        <p class="celebracion">La Celebración</p>
+        <img src="images/hacienda.png" alt="Foto iglesia" class="foto3">
+        <p class="lugar">Hacienda La Bodeguilla</p>
+        <p class="calle">A-8052, km. 1, 8, 41927 Bollullos de la Mitación, Sevilla</p>
+        <p><a href="https://maps.app.goo.gl/bdqRxWSG2Sdu2q17A" target="_blank">Ver en Google Maps</a></p>
+        <p class="regalos">LIsta de Bodas</p>
+        <img src="images/regalos.png" alt="Foto iglesia" class="foto3">
+        <img src="images/dinero.png" alt="Foto dinero" class="foto4">
+
+    </div>
+
+    <div class="content2">
+        
+        <img src="images/juncos.png" alt="Foto juncos" class="foto5">
+
+        <form name="wedding-form" method="post" data-netlify="true">
+
+            <label for="attendance">¿Asistirás?</label>
+            <select name="attendance" id="attendance" onchange="toggleNameField()">
+                <option value="">Elige una opción</option>
+                <option value="yes">Asistiré</option>
+                <option value="no">No asistiré</option>
+            </select>
+        
+            <div id="name-field" style="display: none;">
+                <select name="guests" id="guests">
+                    <option value="">Nº de invitados</option>
+                    <option value="1">Solo yo</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                <textarea name="intolerancia" id="intolerancia" placeholder="Si tienes alguna intolerancia, escríbela aquí"></textarea>
+            </div>
+        
+            <img src="images/autobuses.png" alt="Foto autobus" class="foto6">
+        
+            <label for="bus">¿Necesitas autobús?</label>
+            <select name="bus" id="bus" onchange="toggleBusField()">
+                <option value="">Elige una opción</option>
+                <option value="yes">Sí</option>
+                <option value="no">No</option>
+            </select>
+        
+            <div id="bus-field" style="display: none;">
+                <label for="bus-location">¿Dónde te gustaría coger el autobús de ida?</label>
+                <select name="bus-location" id="bus-location">
+                    <option value="">Elige una opción</option>
+                    <option value="iglesia">Iglesia</option>
+                    <option value="mairena">Mairena del Aljarafe</option>
+                </select>
+            </div>
+        
+        </form>
+        
+    </div>
+
+    
+</body>
+</html>
