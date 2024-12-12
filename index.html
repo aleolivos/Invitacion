@@ -41,12 +41,12 @@
             <label for="attendance">¿Asistirás?</label>
             <select name="attendance" id="attendance" onchange="toggleNameField()">
                 <option value="">Elige una opción</option>
-                <option value="yes">Asistiré</option>
-                <option value="no">No asistiré</option>
+                <option value="Si">Asistiré</option>
+                <option value="No">No asistiré</option>
             </select>
         
             <div id="name-field" style="display: none;">
-                <select name="guests" id="guests">
+                <select name="Nº personas" id="guests">
                     <option value="">Nº de invitados</option>
                     <option value="1">Solo yo</option>
                     <option value="2">2</option>
@@ -54,7 +54,7 @@
                     <option value="4">4</option>
                     <option value="5">5</option>
                 </select>
-                <input type="text" name="name" id="name" placeholder="Nombre">
+                <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
                 <textarea name="intolerancia" id="intolerancia" placeholder="Si tienes alguna intolerancia, escríbela aquí"></textarea>
             </div>
         
@@ -63,16 +63,16 @@
             <label for="bus">¿Necesitas autobús?</label>
             <select name="bus" id="bus" onchange="toggleBusField()">
                 <option value="">Elige una opción</option>
-                <option value="yes">Sí</option>
-                <option value="no">No</option>
+                <option value="Si">Sí</option>
+                <option value="No">No</option>
             </select>
         
             <div id="bus-field" style="display: none;">
                 <label for="bus-location">¿Dónde te gustaría coger el autobús de ida?</label>
                 <select name="bus-location" id="bus-location">
                     <option value="">Elige una opción</option>
-                    <option value="iglesia">Iglesia</option>
-                    <option value="mairena">Mairena del Aljarafe</option>
+                    <option value="Iglesia">Iglesia</option>
+                    <option value="Mairena">Mairena del Aljarafe</option>
                 </select>
             </div>
             <button type="submit">Enviar</button>
