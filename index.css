@@ -6,6 +6,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Caveat';
+    src: url('fonts/Caveat.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -88,13 +95,13 @@ body {
 
 .foto4-container .texto-encima {
     position: absolute;
-    bottom: 30px; /* Coloca el texto un poco por encima del borde inferior */
+    bottom: 25px; /* Coloca el texto un poco por encima del borde inferior */
     left: 50%; /* Centra horizontalmente el texto */
     transform: translateX(-50%);
     color: black; /* El color del texto es negro */
-    font-size: 13px; /* Ajusta el tamaño del texto según sea necesario */
+    font-size: 15px; /* Ajusta el tamaño del texto según sea necesario */
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family: 'Caveat', sans-serif;
 }
 
 .foto5 {
