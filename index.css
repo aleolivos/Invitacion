@@ -73,10 +73,28 @@ body {
     margin-top: -10px; /* Ajusta el espacio entre la imagen y el texto superior */
 }
 
-.foto4 {
-    width: 350px;
+.foto4-container {
+    position: relative; /* Permite que los elementos absolutos se posicionen en relación con este contenedor */
+    display: inline-block;
+    width: 100%; /* Ajusta según el tamaño de la imagen */
+    max-width: 500px; /* Opcional: controla el ancho máximo */
+}
+
+.foto4-container img {
+    display: block;
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
     height: auto;
-    margin-top: -10px; /* Ajusta el espacio entre la imagen y el texto superior */
+}
+
+.foto4-container .texto-encima {
+    position: absolute;
+    bottom: 30px; /* Coloca el texto un poco por encima del borde inferior */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translateX(-50%);
+    color: black; /* El color del texto es negro */
+    font-size: 13px; /* Ajusta el tamaño del texto según sea necesario */
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .foto5 {
