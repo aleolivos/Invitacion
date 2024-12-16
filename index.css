@@ -105,15 +105,21 @@ body {
 }
 
 .foto5 {
-    width: 400px;
+    width: 450px;
     height: auto;
-    margin-top: -40px; /* Ajusta el espacio entre la imagen y el texto superior */
+    margin-bottom: -15px; /* Ajusta el espacio entre la imagen y el texto superior */
 }
 
 .foto6 {
     width: 300px;
     height: auto;
     margin-top: -10px; /* Ajusta el espacio entre la imagen y el texto superior */
+}
+
+.foto7 {
+    width: 300px;
+    height: auto;
+    margin-top: -40px; /* Ajusta el espacio entre la imagen y el texto superior */
 }
 
 .lugar {
@@ -127,14 +133,14 @@ body {
     text-align: center;
 }
 
-label[for="attendance"], label[for="bus"], label[for="bus-location"] {
+label[for="attendance"], label[for="bus"], label[for="bus-location"], label[for="bus-location2"] {
     display: block;
     font-size: 18px;
     margin-bottom: 8px;
     color: #F5F5DC; /* Color de la fuente F5F5DC para las preguntas */
 }
 
-#attendance, #guests, #name, #intolerancia, #bus, #bus-location {
+#attendance, #guests, #name, #intolerancia, #bus, #bus-location, #bus-location2 {
     border-radius: 10px;
     background-color: #F5F5DC; /* Fondo del color especificado */
     padding: 10px;
@@ -144,6 +150,15 @@ label[for="attendance"], label[for="bus"], label[for="bus-location"] {
     box-sizing: border-box; /* Para incluir el padding dentro del tamaño total */
 }
 
+#bus-location {
+    margin-bottom: 20px; /* Añade 20px de margen inferior */
+}
+
+#bus-location2 {
+    margin-top: 10px; /* Opcional para mantener consistencia con otros campos */
+}
+
+
 #attendance, #bus {
     margin-bottom: 10px; /* Espacio entre los dos campos de selección */
 }
@@ -152,7 +167,7 @@ label[for="attendance"], label[for="bus"], label[for="bus-location"] {
     margin-top: 10px; /* Espacio entre los elementos de nombre y el de lugar */
 }
 
-#name, #intolerancia, #bus-location {
+#name, #intolerancia, #bus-location, #bus-location2 {
     margin-top: 10px; /* Espacio entre el segundo select y el input */
 }
 
