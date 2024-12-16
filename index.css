@@ -28,6 +28,7 @@ body {
     background-color: #F5F5DC;
     margin: 0;
     min-height: 100%;
+     width: 450px;
 }
 
 .content2 {
@@ -84,8 +85,7 @@ body {
 .foto4-container {
     position: relative; /* Permite que los elementos absolutos se posicionen en relación con este contenedor */
     display: inline-block;
-    width: 100%; /* Ajusta según el tamaño de la imagen */
-    max-width: 500px; /* Opcional: controla el ancho máximo */
+    max-width: 370px; /* Opcional: controla el ancho máximo */
 }
 
 .foto4-container img {
